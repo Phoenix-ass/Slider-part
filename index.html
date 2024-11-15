@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <!--  *****   Link To Custom CSS Style Sheet   *****  -->
+    <link rel="stylesheet" type="text/css" href="./stylev.css" />
+
+    <!--  *****   Link To Font Awsome Icons   *****  -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+    />
+
+    <!--  *****   Link To Owl Carousel   *****  -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
+    />
+
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <title>Slider & Certification</title>
+  </head>
+  <body>
+    <!--   *** Website Container Starts ***   -->
+    <div class="website-container">
+      <!--   *** Partners Section Starts ***   -->
+      <section class="partners">
+        <h3>Our Trusted Partners around the World</h3>
+        <div class="owl-carousel owl-theme partners-slider">
+          <div class="item brand-item">
+            <img src="./Images/Logos/almarah.png" />
+          </div>
+          <div class="item brand-item">
+            <img src="./Images/Logos/etimadya.png" />
+          </div>
+          <div class="item brand-item">
+            <img src="./Images/Logos/khostan.png" />
+          </div>
+          <div class="item brand-item">
+            <img src="./Images/Logos/matoontapa.png" />
+          </div>
+          <div class="item brand-item">
+            <img src="./Images/Logos/nadershakot.png" />
+          </div>
+          <div class="item brand-item">
+            <img src="./Images/Logos/torghar.png" />
+          </div>
+        </div>
+      </section>
+      <!--   *** Partners Section Ends ***   -->
+    </div>
+
+    <!--Slider Starts-->
+
+    <div class="container-slide" id="first">
+      <div class="header-slide">
+        <h1>Certification and Credentials</h1>
+        <p>
+          Earn certificates of completion or industry-recognized credentials to
+          validate your skills and enhance your professional credibility.
+          Validate your skills and enhance your professional credibility with
+          industry-recognized certificates upon course completion.
+        </p>
+        <div class="certifications">
+          <div class="certification">
+            <hr />
+            <div class="feature-number">
+              <div class="num">1</div>
+            </div>
+            <h3>Professional Development</h3>
+            <p>
+              Professional development grow your skills, advance your career.
+            </p>
+          </div>
+          <div class="certification">
+            <hr />
+            <div class="feature-number">
+              <div class="num">2</div>
+            </div>
+
+            <h3>Pathways to Advancement</h3>
+            <p>
+              Propel your career forward, embrace new opportunities, & lead in
+              your field.
+            </p>
+          </div>
+          <div class="certification">
+            <hr />
+            <div class="feature-number">
+              <div class="num">3</div>
+            </div>
+            <h3>Validation of Skills</h3>
+            <p>
+              Validate your expertise, earn respected certificates recognized by
+              employers.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!--Second Slide-->
+
+    <div class="container-slide2" id="second">
+      <div class="header-slide2">
+        <h1>Flexible Learning Options</h1>
+        <p>
+          With our flexible learning options, you have the freedom to study
+          whenever and wherever it's convenient for you. Whether you're an early
+          bird or a night owl, our platform is accessible 24/7, allowing you to
+          learn at your own pace and on your own schedule.
+        </p>
+        <div class="certifications2">
+          <div class="certification2">
+            <hr />
+            <div class="feature-number2">
+              <div class="num2">1</div>
+            </div>
+            <h3>Study Anytime, Anywhere</h3>
+            <p>
+              Access courses 24/7, fitting learning into your schedule, wherever
+              you are.
+            </p>
+          </div>
+          <div class="certification2">
+            <hr />
+            <div class="feature-number2">
+              <div class="num2">2</div>
+            </div>
+
+            <h3>Customized Learning Experience</h3>
+            <p>
+              Customize learning journey choices to fit your unique needs &
+              goals.
+            </p>
+          </div>
+          <div class="certification2">
+            <hr />
+            <div class="feature-number2">
+              <div class="num2">3</div>
+            </div>
+            <h3>Access to Course Materials</h3>
+            <p>
+              24/7 Access study on your schedule, with materials at your
+              fingertips
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!--   *** Link To JQuery ***   -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.0/jquery.min.js"></script>
+
+    <!--   *** Link To Owl Carousel ***   -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+
+    <!--   *** Link To Curstom Script File ***   -->
+
+    <script>
+      let first = document.getElementById("first");
+      let second = document.getElementById("second");
+
+      window.addEventListener("scroll", function () {
+        var value = window.scrollY;
+
+        first.style.top = value * 0.3 + "px";
+        second.style.mid = value * 0.2 + "px";
+      });
+    </script>
+
+    <script type="text/javascript" src="./script.js"></script>
+  </body>
+</html>

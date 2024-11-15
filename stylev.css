@@ -1,0 +1,214 @@
+*{
+	box-sizing: border-box;
+	font-family: 'Worksans', sans-serif;
+}
+
+
+/*   === Partners Section Styling Starts ===   */
+section.partners{
+	width: 100%;
+	padding: 30px 8%;
+	background-color:lightgray;
+}
+.partners h3{
+	margin-bottom: 40px;
+	color: #232d39;
+	font-size: 22px;
+}
+.partners .partners-slider .brand-item{
+	text-align: center;
+	background-color: #efefef;
+	padding: 5px;
+}
+.partners .partners-slider .brand-item img{
+	width: 120px;
+	display: inline-block;
+}
+.owl-carousel .owl-nav{
+	position: absolute;
+	right: 0;
+	top: -80px;
+}
+.owl-carousel .owl-nav button{
+	border-radius: 5px !important;
+}
+.owl-carousel .owl-nav .owl-prev i,
+.owl-carousel .owl-nav .owl-next i{
+	padding: 8px 14px !important;
+	border-radius: 5px;
+	font-size: 16px !important;
+	background-color: #208245 !important;
+	color: #efefef;
+	border: 1px solid transparent;
+	cursor: pointer;
+	transition: 0.3s;
+}
+.owl-carousel .owl-nav .owl-prev i:hover,
+.owl-carousel .owl-nav .owl-next i:hover{
+	background-color: #efefef !important;
+	color:lightblue;
+	border: 1px solid crimson;
+}
+.owl-carousel .owl-dots{
+	margin-top: 20px;
+}
+.owl-carousel .owl-dots .owl-dot span{
+	padding: 4px !important;
+}
+.owl-carousel .owl-dots .owl-dot.active span{
+	background-color: crimson !important;
+}
+/*   === Partners Section Styling Ends ===   */
+
+/*   === Media Query Starts ===   */
+
+@media(max-width: 668px){
+	/* Partners Section */
+	.partners h3{
+		margin-right: 150px;
+	}
+}
+
+@media(max-width: 468px){
+	/* Partners Section */
+	.partners h3{
+		margin-right: 0px;
+		margin-bottom: 80px;
+	}
+}
+/*   === Media Query Ends ===   */
+
+/*Slider starts*/
+  
+  .container-slide {
+	grid-row-gap: 70px;
+	background-color: #9eb2dc;
+	border-radius: 6px;
+	flex-flow: column;
+	padding: 50px;
+	display: flex;
+	position: -webkit-sticky;
+	position: sticky;
+	margin-top: 5%;
+	margin-left: 25px;
+	margin-right: 25px;
+  }
+  
+  .header {  
+	background-color: #9eb2dc; /* Light blue */  
+	padding: 20px;    
+	text-align: flex-start;  
+	border-radius: 25px;
+  }  
+  .header h1{
+	margin-left: 10px;
+	font-size: 25px;
+	font-weight: 700;
+  }
+  .header p{
+	margin-left: 10px;
+	font-size: 16px;
+  }
+  
+  .certifications {  
+	display: flex;  
+	justify-content: space-around;  
+   
+  }  
+  
+  .certification {  
+	background-color:#9eb2dc; /* White */  
+	padding: 10px;    
+	width: 35%;   
+	text-align: center;  
+	margin-bottom: 30px;
+  }  
+  .certification h3{
+	margin-top: -35px;
+	margin-left: 13px;
+  }
+  .feature-number{  
+	  border: 1px solid rgba(0, 0, 0, .1);
+	  border-radius: 50%;
+	  align-items: center;
+	  margin-top: 15px;
+	  max-width: 40px;
+	  min-height: 40px;
+	  max-height: 40px;
+	  font-size: 17px;
+	  transition: border-color .3s, background-color .3s;
+	  display: flex;
+	  margin-left: -5px;
+  }
+  .num{
+	margin-left: 14px;
+  }
+  .feature-number:hover{
+	background-color: rgba(255,255,255) ;
+  }
+  /*Slide 2*/
+  .container-slide2 {
+	grid-row-gap: 70px;
+	background-color:#e6fe82;
+	border-radius: 6px;
+	flex-flow: column;
+	padding: 50px;
+	display: flex;
+	position: -webkit-sticky;
+	position: sticky;
+	margin-top: 5px;
+	margin-left: 25px;
+	margin-right: 25px;
+  }
+  .header2 {  
+	background-color: #e6fe82; /* Light blue */  
+	padding: 20px;    
+	text-align: flex-start;  
+	border-radius: 25px;
+  } 
+  .header2 h1{
+	margin-left: 10px;
+	font-size: 25px;
+	font-weight: 700;
+  }
+  .header2 p{
+	margin-left: 10px;
+	font-size: 16px;
+  }
+  
+  .certifications2 {  
+	display: flex;  
+	justify-content: space-around;  
+   
+  }  
+  
+  .certification2 {  
+	background-color:#e6fe82; /* White */  
+	padding: 10px;    
+	width: 35%;   
+	text-align: center;  
+	margin-bottom: 30px;
+  } 
+  .certification2 h3{
+	margin-top: -35px;
+	margin-left: 13px;
+  }
+  .feature-number2{  
+	  border: 1px solid rgba(0, 0, 0, .1);
+	  border-radius: 50%;
+	  align-items: center;
+	  margin-top: 15px;
+	  max-width: 40px;
+	  min-height: 40px;
+	  max-height: 40px;
+	  font-size: 17px;
+	  transition: border-color .3s, background-color .3s;
+	  display: flex;
+	  margin-left: -5px;
+  }
+  .num2{
+	margin-left: 14px;
+  }
+  .feature-number2:hover{
+	background-color: rgba(255,255,255) ;
+  }
